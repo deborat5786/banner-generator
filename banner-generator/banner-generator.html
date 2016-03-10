@@ -7,17 +7,41 @@
  
 
 <script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p").hide();
+$(function(){
+    $(button).click(function(){
+        $('class').fadeOut();
     });
 });
+$(function(){
+$("#p1").mouseleave(function(){
+    alert("Bye! You now leave p1!");
+});
+    
+
 </script>
+
 </head>
  <body background="http://bsccongress.com/im2/pastel-colored-bubbles-clip-art.png">
-    <button>click me</button>
+    <button >click me</button>
     
-  <p>Generator</p>
+  <p id ="class">Generator</p>
+  
+    Name: <input id=""><br><br>
+      
+    Last: <input id="noun"><br><br>
+        
+  Color: <input id="color1"><br><br>
+  
+  Background color
+ <select name="good"> 
+ 
+ <option value="color1">blue</option>
+ <option value="color2">purple</option>
+ <option value="color3">yellow</option>
+ <option value="color4">red</option>
+ 
+ </select>
+  
   
       
      
